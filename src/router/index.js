@@ -1,4 +1,4 @@
-
+import Home from '../pages/Home'
 import HomeBranding from '../pages/HomeBranding'
 import HomeSass from '../pages/HomeSass'
 import HomeSoftware from '../pages/HomeSoftware'
@@ -41,6 +41,11 @@ import NotFound from '../pages/elements/404'
 export const routes = [
     {
         path:'/',
+        name: 'Home',
+        component: Home
+    },
+    {
+        path:'/branding',
         name: 'HomeBranding',
         component: HomeBranding
     },
