@@ -317,13 +317,20 @@
                         </div>
                     </div>
 
+                    <!--==== FOR THE SIDE ANNOUNCEMENTS ====-->
                     <div class="col-lg-4">
-                        <SidebarBlog />
+                        <SidebarAnnouncement />
                     </div>
                 </div>
             </div>
         </div>
         <!-- blog item wrapper end -->
+
+        <!-- footer section -->
+        <Footer />
+
+        <!-- offcanvas search component -->
+        <OffcanvasSearchBox />
 
     </div>
 </template>
@@ -331,12 +338,18 @@
 <script>
 import HeaderElement from '@/components/dcism/Header.vue'
 import Breadcrumb from '@/components/dcism/Breadcrumb.vue'
+import Footer from '@/components/dcism/Footer.vue'
+import OffcanvasSearchBox from "@/components/dcism/OffcanvasSearchBox"
+import SidebarAnnouncement from '@/components/dcism/sections/announcements/SidebarAnnouncement'
 
 export default {
     name: 'AllAnnouncements',
     components: {
         HeaderElement,
-        Breadcrumb
+        Breadcrumb,
+        Footer,
+        OffcanvasSearchBox,
+        SidebarAnnouncement
     },
     metaInfo: {
             title: 'Announcements | DCISM',
