@@ -15,22 +15,22 @@
 
         <!-- === Sidebar Widget Start ===-->
         <div class="sidebar-widget widget-categories wow move-up">
-            <h5 class="widget-title font-weight--light">Categories</h5>
+            <h5 class="widget-title font-weight--light">Quick Links</h5>
             <ul>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">App Release <span class="count">3</span>
+                    <router-link to="/blog-list-large-image">News Page<span class="count">3</span>
                 </router-link>
                 </li>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">Online Branding <span class="count">1</span>
+                    <router-link to="/blog-list-large-image">Events Page<span class="count">1</span>
                 </router-link>
                 </li>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">Project Showcase <span class="count">3</span>
+                    <router-link to="/blog-list-large-image">FAQs Page<span class="count">3</span>
                 </router-link>
                 </li>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">Web Design <span class="count">2</span>
+                    <router-link to="/blog-list-large-image">About the Department
                 </router-link>
                 </li>
             </ul>

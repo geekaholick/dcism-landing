@@ -1,6 +1,6 @@
 <template>
     <!-- breadcrumb-area start -->
-    <div class="breadcrumb-area gradient--secondary">
+    <div class="breadcrumb-area gradient--secondary pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">

@@ -8,6 +8,9 @@
         <Breadcrumb>
             <template slot="breadcrumb">
                 <div class="breadcrumb_box text-center">
+                    <ul class="breadcrumb-list">
+                        <li class="breadcrumb-item active" style="font-size: 15px;">Department of Computer, Information Sciences, and Mathematics</li>
+                    </ul>
                     <h2 class="breadcrumb-title">Announcements</h2>
                     <!-- breadcrumb-list start -->
                     <ul class="breadcrumb-list">
