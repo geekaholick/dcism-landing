@@ -1,4 +1,3 @@
-import Home from '../pages/Home'
 import HomeBranding from '../pages/HomeBranding'
 import HomeSass from '../pages/HomeSass'
 import HomeSoftware from '../pages/HomeSoftware'
@@ -38,11 +37,20 @@ import BlogListLargeImage from '../pages/blog/BlogListLargeImage'
 import BlogDetails from '../pages/blog/BlogDetails'
 import NotFound from '../pages/elements/404'
 
+// FOR DCISM ROUTES
+import Home from '../pages/Home'
+import Announcements from '../components/dcism/sections/announcements/AllAnnouncements'
+
 export const routes = [
     {
         path:'/',
         name: 'Home',
         component: Home
+    },
+    {
+        path:'/announcements',
+        name: 'Announcements',
+        component: Announcements
     },
     {
         path:'/branding',
