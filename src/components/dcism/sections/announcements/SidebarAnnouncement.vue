@@ -18,7 +18,7 @@
             <h5 class="widget-title font-weight--light">Quick Links</h5>
             <ul>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">News Page<span class="count">3</span>
+                    <router-link to="/blog-list-large-image">News Page<span class="count">9+</span>
                 </router-link>
                 </li>
                 <li class="cat-item">
@@ -26,7 +26,7 @@
                 </router-link>
                 </li>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">FAQs Page<span class="count">3</span>
+                    <router-link to="/blog-list-large-image">FAQs Page
                 </router-link>
                 </li>
                 <li class="cat-item">
@@ -84,17 +84,14 @@
         <!-- === Sidebar Widget End === -->
 
         <!-- === Sidebar Widget Start === -->
-        <div class="sidebar-widget widget-images wow move-up">
-            <img class="img-fluid" src="@/assets/img/blog/blog-advertising.jpg" alt="image">
-        </div>
-        <!-- === Sidebar Widget End === -->
-
-        <!-- === Sidebar Widget Start === -->
         <div class="sidebar-widget widget-tag wow move-up">
-            <h5 class="widget-title font-weight--light">Tags</h5>
-            <button class="ht-btn ht-btn-xs">Designer</button>
-            <button class="ht-btn ht-btn-xs">Font</button>
-            <button class="ht-btn ht-btn-xs">Mockup</button>
+            <h5 class="widget-title font-weight--light">Social</h5>
+            <ul class="list ht-social-networks solid-rounded-icon">
+                            <li class="item d-flex justify-content-between" style="gap: 0.5rem;">
+                               <a target="_blank" href="https://www.facebook.com/uscdcism/" class="social-link hint--bounce hint--top  hint--primary" aria-label="@uscdcism" style="flex: 0 0 15%;"><i class="fab fa-facebook"></i> </a>
+                               <span style="flex: 0 0 85%;">Department of Computer, Information Sciences, and Mathematics</span>
+                            </li>
+                        </ul>
         </div>
         <!-- === Sidebar Widget End === -->
     </div>

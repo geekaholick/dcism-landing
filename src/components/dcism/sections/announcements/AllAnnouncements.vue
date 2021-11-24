@@ -45,7 +45,7 @@
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
                                     <div class="post-categories">
-                                        <router-link to="/">App Release</router-link>
+                                        <router-link to="/">4 mins read</router-link>
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
@@ -95,7 +95,7 @@
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
                                     <div class="post-categories">
-                                        <router-link to="">App Release</router-link>
+                                        <router-link to="">4 mins read</router-link>
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
@@ -142,7 +142,7 @@
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
                                     <div class="post-categories">
-                                        <router-link to="/">App Release</router-link>
+                                        <router-link to="/">4 mins read</router-link>
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
@@ -237,7 +237,7 @@
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
                                     <div class="post-categories">
-                                        <router-link to="/">App Release</router-link>
+                                        <router-link to="/">4 mins read</router-link>
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
@@ -284,7 +284,7 @@
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
                                     <div class="post-categories">
-                                        <router-link to="/">App Release</router-link>
+                                        <router-link to="/">4 mins read</router-link>
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
