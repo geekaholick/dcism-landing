@@ -18,19 +18,19 @@
             <h5 class="widget-title font-weight--light">Quick Links</h5>
             <ul>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">News Page<span class="count">9+</span>
+                    <router-link to="/announcements">News Page<span class="count">9+</span>
                 </router-link>
                 </li>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">Events Page<span class="count">1</span>
+                    <router-link to="/announcements">Events Page<span class="count">1</span>
                 </router-link>
                 </li>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">FAQs Page
+                    <router-link to="/announcements">FAQs Page
                 </router-link>
                 </li>
                 <li class="cat-item">
-                    <router-link to="/blog-list-large-image">About the Department
+                    <router-link to="/announcements">About the Department
                 </router-link>
                 </li>
             </ul>
@@ -39,44 +39,44 @@
 
         <!-- === Sidebar Widget Start === -->
         <div class="sidebar-widget widget-blog-post wow move-up">
-            <h5 class="widget-title font-weight--light">Popular posts</h5>
+            <h5 class="widget-title font-weight--light">Popular announcements</h5>
             <div class="post-item">
                 <div class="post-info">
                     <div class="post-categories">
-                        <router-link to="/blog-list-large-image">App Release</router-link>
+                        <router-link to="/announcements">App Release</router-link>
                     </div>
                     <h6 class="post-title">
-                        <router-link to="/blog-details">Specialized Design Tools for 2019</router-link>
+                        <router-link to="/announcements">Specialized Design Tools for 2019</router-link>
                     </h6>
                 </div>
             </div>
             <div class="post-item">
                 <div class="post-info">
                     <div class="post-categories">
-                        <router-link to="/blog-list-large-image">App Release</router-link>
+                        <router-link to="/announcements">App Release</router-link>
                     </div>
                     <h6 class="post-title">
-                        <router-link to="/blog-details">Foundation 3 – the Truly Great Move</router-link>
+                        <router-link to="/announcements">Foundation 3 – the Truly Great Move</router-link>
                     </h6>
                 </div>
             </div>
             <div class="post-item">
                 <div class="post-info">
                     <div class="post-categories">
-                        <router-link to="/blog-list-large-image">App Release</router-link>
+                        <router-link to="/announcements">App Release</router-link>
                     </div>
                     <h6 class="post-title">
-                        <router-link to="/blog-details">Creativity Boosting App is Here</router-link>
+                        <router-link to="/announcements">Creativity Boosting App is Here</router-link>
                     </h6>
                 </div>
             </div>
             <div class="post-item">
                 <div class="post-info">
                     <div class="post-categories">
-                        <router-link to="/blog-list-large-image">App Release</router-link>
+                        <router-link to="/announcements">App Release</router-link>
                     </div>
                     <h6 class="post-title">
-                        <router-link to="/blog-details">D&amp;AD Festival 2019’s Brand Identity</router-link>
+                        <router-link to="/announcements">D&amp;AD Festival 2019’s Brand Identity</router-link>
                     </h6>
                 </div>
             </div>

@@ -35,9 +35,9 @@
                             <!--======= Single Blog Item Start ========-->
                             <div class="single-blog-item lg-blog-item border-bottom wow move-up">
                                 <!-- Post Feature Start -->
-                                <div class="post-feature blog-thumbnail">
-                                    <router-link to="/blog-details">
-                                        <img class="img-fluid" src="@/assets/img/blog/blog-770x420.jpg" alt="Blog Images">
+                                <div class="post-feature blog-thumbnail" style="width: 100%; height: 450px;">
+                                    <router-link to="/announcements" style="width: 100%; height: 100%; object-fit: contain !important;" class="d-flex justify-content-center">
+                                        <img class="img-fluid" src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/259382976_4051727131594497_4241972222524495545_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=DNoNG1Bb-WEAX_qMIJV&_nc_oc=AQmpOxGzFJ3-lTLqAmOiTS93F1WsScnoSvbCcPlD5g7NEnKe2VOR9yrjan8v6koOQdE&_nc_ht=scontent.fceb2-1.fna&oh=903a54977bacbf454e1c89027bc810a4&oe=61A312BB" alt="Blog Images" style="width: 100%; height: 100%; object-fit: cover !important;">
                                     </router-link>
                                 </div>
                                 <!-- Post Feature End -->
@@ -49,12 +49,12 @@
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Specialized Design Tools for 2019</router-link>
+                                        <router-link to="/announcements">Specialized Design Tools for 2019</router-link>
                                     </h4>
 
                                     <div class="post-meta mt-20">
                                         <div class="post-author">
-                                            <router-link to="/blog-details">
+                                            <router-link to="/announcements">
                                                 <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> 
                                                 Harry Ferguson
                                             </router-link>
@@ -70,7 +70,7 @@
                                     </div>
 
                                     <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
+                                        <router-link to="/announcements" class="ht-btn ht-btn-sm">
                                             <span class="btn-text">Read more </span>
                                         </router-link>
                                     </div>
@@ -84,7 +84,7 @@
                                 <!-- Post Feature Start -->
                                 <div class="post-feature post-quote">
                                     <h5 class="post-quote-text">
-                                        <router-link to="/blog-details">
+                                        <router-link to="/announcements">
                                             “Design is not just what it looks like and feels like. Design is how it works. –Steve Jobs”
                                         </router-link>
                                     </h5>
@@ -99,12 +99,12 @@
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Foundation 3 – the Truly Great Move</router-link>
+                                        <router-link to="/announcements">Foundation 3 – the Truly Great Move</router-link>
                                     </h4>
 
                                     <div class="post-meta mt-20">
                                         <div class="post-author">
-                                            <router-link to="/blog-details">
+                                            <router-link to="/announcements">
                                                 <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image">
                                                 Harry Ferguson
                                             </router-link>
@@ -120,7 +120,7 @@
                                     </div>
 
                                     <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
+                                        <router-link to="/announcements" class="ht-btn ht-btn-sm">
                                             <span class="btn-text">Read more </span>
                                         </router-link>
                                     </div>
@@ -133,7 +133,7 @@
                             <div class="single-blog-item lg-blog-item border-bottom wow move-up">
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
-                                    <router-link to="/blog-details">
+                                    <router-link to="/announcements">
                                         <img class="img-fluid" src="@/assets/img/blog/blog-09-770x420.jpg" alt="Blog Images">
                                     </router-link>
                                 </div>
@@ -146,12 +146,12 @@
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Specialized Design Tools for 2019</router-link>
+                                        <router-link to="/announcements">Specialized Design Tools for 2019</router-link>
                                     </h4>
 
                                     <div class="post-meta mt-20">
                                         <div class="post-author">
-                                            <router-link to="/blog-details">
+                                            <router-link to="/announcements">
                                                 <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> 
                                                 Harry Ferguson
                                             </router-link>
@@ -167,7 +167,7 @@
                                     </div>
 
                                     <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
+                                        <router-link to="/announcements" class="ht-btn ht-btn-sm">
                                             <span class="btn-text">Read more </span>
                                         </router-link>
                                     </div>
@@ -195,12 +195,12 @@
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">D&AD Festival 2019’s Brand Identity</router-link>
+                                        <router-link to="/announcements">D&AD Festival 2019’s Brand Identity</router-link>
                                     </h4>
 
                                     <div class="post-meta mt-20">
                                         <div class="post-author">
-                                            <router-link to="/blog-details">
+                                            <router-link to="/announcements">
                                                 <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> Harry Ferguson
                                             </router-link>
                                         </div>
@@ -215,7 +215,7 @@
                                     </div>
 
                                     <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
+                                        <router-link to="/announcements" class="ht-btn ht-btn-sm">
                                             <span class="btn-text">Read more </span>
                                         </router-link>
                                     </div>
@@ -228,7 +228,7 @@
                             <div class="single-blog-item lg-blog-item border-bottom wow move-up">
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
-                                    <router-link to="/blog-details">
+                                    <router-link to="/announcements">
                                         <img class="img-fluid" src="@/assets/img/blog/blog-01-770x420.jpg" alt="Blog Images">
                                     </router-link>
                                 </div>
@@ -241,12 +241,12 @@
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Specialized Design Tools for 2019</router-link>
+                                        <router-link to="/announcements">Specialized Design Tools for 2019</router-link>
                                     </h4>
 
                                     <div class="post-meta mt-20">
                                         <div class="post-author">
-                                            <router-link to="/blog-details">
+                                            <router-link to="/announcements">
                                                 <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> 
                                                 Harry Ferguson
                                             </router-link>
@@ -262,7 +262,7 @@
                                     </div>
 
                                     <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
+                                        <router-link to="/announcements" class="ht-btn ht-btn-sm">
                                             <span class="btn-text">Read more </span>
                                         </router-link>
                                     </div>
@@ -275,7 +275,7 @@
                             <div class="single-blog-item lg-blog-item border-bottom wow move-up">
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
-                                    <router-link to="/blog-details">
+                                    <router-link to="/announcements">
                                         <img class="img-fluid" src="@/assets/img/blog/blog-10-770x420.jpg" alt="Blog Images">
                                     </router-link>
                                 </div>
@@ -288,12 +288,12 @@
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Creativity Boosting App is Here</router-link>
+                                        <router-link to="/announcements">Creativity Boosting App is Here</router-link>
                                     </h4>
 
                                     <div class="post-meta mt-20">
                                         <div class="post-author">
-                                            <router-link to="/blog-details">
+                                            <router-link to="/announcements">
                                                 <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> 
                                                 Harry Ferguson
                                             </router-link>
@@ -309,7 +309,7 @@
                                     </div>
 
                                     <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
+                                        <router-link to="/announcements" class="ht-btn ht-btn-sm">
                                             <span class="btn-text">Read more </span>
                                         </router-link>
                                     </div>
@@ -328,6 +328,40 @@
             </div>
         </div>
         <!-- blog item wrapper end -->
+
+        <!-- Navigation -->
+        <div class="portfolio-nav-links bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="nav-list">
+                            <div class="nav-item prev">
+                                <div class="inner">
+                                    <a href="#" rel="prev">
+                                        <div><img class="img-fluid border-radus-5" src="@/assets/img/portfolio/portfolio-08-01-120x80.jpg" alt="portfolio-08-01">
+                                            <h6>Recent announcements</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="nav-item next">
+                                <div class="inner">
+                                    <a href="#" rel="next">
+                                        <div>
+                                            <h6>Older announcements</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="entry-portfolio-return-link">
+                            <span class="fa fa-th"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- footer section -->
         <Footer />
