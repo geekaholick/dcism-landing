@@ -6,19 +6,7 @@
       tablet-mt__40
     "
   >
-    <!--=== Sidebar Widget Start ===-->
-    <div class="sidebar-widget search-post wow move-up">
-      <form>
-        <div class="widget-search">
-          <input type="text" placeholder="Enter search keyword…" />
-          <button type="submit" class="search-submit">
-            <span class="search-btn-icon far fa-search"></span>
-          </button>
-        </div>
-      </form>
-    </div>
-    <!--=== Sidebar Widget End ===-->
-
+    
     <!-- === Quick Links Widget Start ===-->
     <div class="sidebar-widget widget-categories wow move-up">
       <h5 class="widget-title font-weight--light">Quick Links</h5>
