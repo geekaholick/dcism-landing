@@ -50,7 +50,7 @@ export const routes = [
     {
         path:'/announcements',
         name: 'Announcements',
-        component: Announcements
+        component: Announcements,
     },
     {
         path:'/branding',
