@@ -3,7 +3,7 @@
         <a href="#" class="digital-agency-assistance__warap wow move-up" v-for="(item, index) in services" :key="index">
             <div class="digital-agency-assistance__box">
                 <div class="digital-agency-assistance__images">
-                    <div class="images-midea">
+                    <div class="images-midea" id="removeBG">
                         <img :src="item.img" class="img-fluid" alt="service thumb">
                     </div>
                 </div>
@@ -59,27 +59,16 @@
     };
 </script>
 
-<style lang="scss">
-    .digital-agency-grid{
-        grid-column: 4 / 4;
-    }
+<style lang="scss" scoped>
   
    .images-midea{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        height:25%;
-        width: 25%;
+        height:30%;
+        width: 30%;
    }
     
-    .digital-agency-grid {
-    display: grid;
-    grid-template-columns: repeat( 4,1fr);
-    grid-column-gap: 70px;
-    grid-row-gap: 50px;
-}
-
     .description{
         font-weight: bold;
             color: black;
@@ -87,6 +76,14 @@
                 color: rgb(0, 0, 0);
                 font-weight: 500;
             }
+    }
+
+    .digital-agency-grid {
+        grid-template-columns: repeat( 4,1fr);
+    }
+
+    #removeBG::after{
+        background-image: none;
     }
 
 </style>
