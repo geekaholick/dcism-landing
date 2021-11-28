@@ -5,11 +5,10 @@
                 <div class="digital-agency-assistance__images">
                     <div class="images-midea">
                         <img :src="item.img" class="img-fluid" alt="service thumb">
-                        <h5 class="heading">{{ item.heading }}</h5>
                     </div>
                 </div>
                 <div class="digital-agency-assistance__content mt-30 text-center">
-                    <p>{{ item.desc }}</p>
+                    <p class="description">{{ item.desc }}</p>
                 </div>
             </div>
         </a>
@@ -21,21 +20,38 @@
         name: 'ServiceItem',
         data(){
             return {
-                services: [
+                 services: [
                     {
-                        img: require('../../assets/img/agency/agency-service-01.jpg'),
-                        heading: 'Website & app designing',
-                        desc: 'Our technical experts have a flair for developing clean-coded websites based on customers’ needs, global guidelines and trends.'
+                        img: require('../../assets/img/about/award-no1.png'),
+                        desc: '100% passing rate Librarian Licensure Examination (2012)'
                     },
                     {
-                        img: require('../../assets/img/agency/agency-service-02.jpg'),
-                        heading: 'Marketing campaign & PR',
-                        desc: 'Our presence on a wide range of social platforms leads to better marketing results, larger customer base & bigger opportunities.'
+                        img: require('../../assets/img/about/arrows-up.png'),
+                        desc: 'CHED Center of Development in Information Technology Education'
                     },
                     {
-                        img: require('../../assets/img/agency/agency-service-03.jpg'),
-                        heading: 'Site ranking improvement',
-                        desc: 'Studies showed that the choice of appropriate keywords for your sites content, portfolios, posts help increase the site ranking'
+                        img: require('../../assets/img/about/thumbs-up.png'),
+                        desc: 'Only Top Performing Library School in the Visayas recognized by the Professional Regulation Commision'
+                    },
+                    {
+                        img: require('../../assets/img/about/certificates.png'),
+                        desc: 'Top Performing School in the Philippine Information Technology General Certification Exam'
+                    },
+                    {
+                        img: require('../../assets/img/about/seminar.png'),
+                        desc: 'Host of Ph.D Mathematics Program in partnership with Ateneo de Manila University and CHED'
+                    },
+                    {
+                        img: require('../../assets/img/about/shake-hands.png'),
+                        desc: 'Collaborating with Academics without Borders-Canada Project for teaching statistics in K-12'
+                    },
+                    {
+                        img: require('../../assets/img/about/arrows-up.png'),
+                        desc: 'CHEC delivering institution for mathematics'
+                    },
+                    {
+                        img: require('../../assets/img/about/3-stars.png'),
+                        desc: 'Level III FAAP-accredited B.S Math program evaluated by PAASCU'
                     }
                 ]
             }
@@ -44,5 +60,33 @@
 </script>
 
 <style lang="scss">
+    .digital-agency-grid{
+        grid-column: 4 / 4;
+    }
+  
+   .images-midea{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height:25%;
+        width: 25%;
+   }
+    
+    .digital-agency-grid {
+    display: grid;
+    grid-template-columns: repeat( 4,1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 50px;
+}
+
+    .description{
+        font-weight: bold;
+            color: black;
+            & strong {
+                color: rgb(0, 0, 0);
+                font-weight: 500;
+            }
+    }
 
 </style>
