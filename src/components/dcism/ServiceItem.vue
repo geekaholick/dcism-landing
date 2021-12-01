@@ -1,48 +1,79 @@
+
 <template>
     <div class="digital-agency-grid">
-        <a href="#" class="digital-agency-assistance__warap wow move-up" v-for="(item, index) in services" :key="index">
+        <a href="#" class="digital-agency-assistance__warap wow move-up" v-for="(item, index) in retData" :key="index">
             <div class="digital-agency-assistance__box">
                 <div class="digital-agency-assistance__images">
-                    <div class="images-midea">
+                    <div class="images-midea" id="removeBG">
                         <img :src="item.img" class="img-fluid" alt="service thumb">
-                        <h5 class="heading">{{ item.heading }}</h5>
                     </div>
                 </div>
                 <div class="digital-agency-assistance__content mt-30 text-center">
-                    <p>{{ item.desc }}</p>
+                    <p class="description">{{item.desc}}</p>
                 </div>
             </div>
         </a>
     </div>
+
+    
+
+
 </template>
 
 <script>
+    import axios from 'axios'
+
     export default{
         name: 'ServiceItem',
+        mounted(){
+            this.getData();
+        },
         data(){
             return {
-                services: [
-                    {
-                        img: require('../../assets/img/agency/agency-service-01.jpg'),
-                        heading: 'Website & app designing',
-                        desc: 'Our technical experts have a flair for developing clean-coded websites based on customers’ needs, global guidelines and trends.'
-                    },
-                    {
-                        img: require('../../assets/img/agency/agency-service-02.jpg'),
-                        heading: 'Marketing campaign & PR',
-                        desc: 'Our presence on a wide range of social platforms leads to better marketing results, larger customer base & bigger opportunities.'
-                    },
-                    {
-                        img: require('../../assets/img/agency/agency-service-03.jpg'),
-                        heading: 'Site ranking improvement',
-                        desc: 'Studies showed that the choice of appropriate keywords for your sites content, portfolios, posts help increase the site ranking'
+                retData:[],
+            }
+        },
+        methods: {
+            getData() {
+                let self = this;
+                axios.get('http://127.0.0.1:8081/api/users').then(res=>{
+                    if(res.status==200){
+                    self.retData = res.data.achievement;
+                    window.console.log(this.retData.achievement[0].img);
                     }
-                ]
+                }).catch(err=>{
+                    window.console.log(err)
+                });
             }
         }
     };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped >
+  
+   .images-midea{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height:30%;
+        width: 30%;
+   }
+    
+    .description{
+        font-weight: bold;
+            color: black;
+            & strong {
+                color: rgb(0, 0, 0);
+                font-weight: 500;
+            }
+    }
+
+    .digital-agency-grid {
+        grid-template-columns: repeat( 4,1fr);
+    }
+
+    #removeBG::after{
+        background-image: none;
+    }
 
 </style>
