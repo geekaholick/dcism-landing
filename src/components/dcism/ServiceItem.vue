@@ -1,6 +1,7 @@
+
 <template>
     <div class="digital-agency-grid">
-        <a href="#" class="digital-agency-assistance__warap wow move-up" v-for="(item, index) in services" :key="index">
+        <a href="#" class="digital-agency-assistance__warap wow move-up" v-for="(item, index) in retData" :key="index">
             <div class="digital-agency-assistance__box">
                 <div class="digital-agency-assistance__images">
                     <div class="images-midea" id="removeBG">
@@ -20,44 +21,29 @@
 </template>
 
 <script>
+    import axios from 'axios'
+
     export default{
         name: 'ServiceItem',
+        mounted(){
+            this.getData();
+        },
         data(){
             return {
-                 services: [
-                    {
-                        img: require('../../assets/img/about/award-no1.png'),
-                        desc: '100% passing rate Librarian Licensure Examination (2012)'
-                    },
-                    {
-                        img: require('../../assets/img/about/arrows-up.png'),
-                        desc: 'CHED Center of Development in Information Technology Education'
-                    },
-                    {
-                        img: require('../../assets/img/about/thumbs-up.png'),
-                        desc: 'Only Top Performing Library School in the Visayas recognized by the Professional Regulation Commision'
-                    },
-                    {
-                        img: require('../../assets/img/about/certificates.png'),
-                        desc: 'Top Performing School in the Philippine Information Technology General Certification Exam'
-                    },
-                    {
-                        img: require('../../assets/img/about/seminar.png'),
-                        desc: 'Host of Ph.D Mathematics Program in partnership with Ateneo de Manila University and CHED'
-                    },
-                    {
-                        img: require('../../assets/img/about/shake-hands.png'),
-                        desc: 'Collaborating with Academics without Borders-Canada Project for teaching statistics in K-12'
-                    },
-                    {
-                        img: require('../../assets/img/about/arrows-up.png'),
-                        desc: 'CHEC delivering institution for mathematics'
-                    },
-                    {
-                        img: require('../../assets/img/about/3-stars.png'),
-                        desc: 'Level III FAAP-accredited B.S Math program evaluated by PAASCU'
+                retData:[],
+            }
+        },
+        methods: {
+            getData() {
+                let self = this;
+                axios.get('http://127.0.0.1:8081/api/users').then(res=>{
+                    if(res.status==200){
+                    self.retData = res.data.achievement;
+                    window.console.log(this.retData.achievement[0].img);
                     }
-                ]
+                }).catch(err=>{
+                    window.console.log(err)
+                });
             }
         }
     };
