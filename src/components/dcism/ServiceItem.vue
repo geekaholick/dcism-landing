@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <div class="digital-agency-assistance__content mt-30 text-center">
-                    <p class="description">{{ item.desc }}</p>
+                    <p class="description">{{item.desc}}</p>
                 </div>
             </div>
         </a>
