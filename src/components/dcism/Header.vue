@@ -13,7 +13,7 @@
                     <b-nav-item to="/"><span>LANDING</span></b-nav-item>
                     <b-nav-item href="#home" class="scroll"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
-                    <b-nav-item href="#team" class="scroll"><span>OUR TEAM</span></b-nav-item>
+                    <b-nav-item  class="scroll"><span><router-link to="/program" exact-path>PROGRAMS</router-link></span></b-nav-item>
                     <b-nav-item href="#project" class="scroll"><span>PROJECT</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
                 </b-navbar-nav>

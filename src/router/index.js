@@ -38,11 +38,18 @@ import BlogListLargeImage from '../pages/blog/BlogListLargeImage'
 import BlogDetails from '../pages/blog/BlogDetails'
 import NotFound from '../pages/elements/404'
 
+import Program from '../pages/Program'
+
 export const routes = [
     {
         path:'/',
         name: 'Home',
         component: Home
+    },
+    {
+        path:'/Program',
+        name: 'Program',
+        component: Program
     },
     {
         path:'/branding',
