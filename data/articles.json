@@ -1,0 +1,21 @@
+{
+    "articles":[
+		{"id":1,
+        "headline": "Eye In The Sky",
+        "content": "StackCommerce Gamers who don't have dedicated gaming glasses, or ones of lower quality, simply don't know what they're missing. So we've gathered up 12 excellent examples that can level up your gaming experience, and if you order now they can be delivered between December 14 and 20. And if you happen to be a Mac user who wants to free up a little extra time for gaming, you can choose from over 200 apps to boost your productivity.",
+        "image": "https://cdn.pixabay.com/photo/2019/02/09/09/46/architecture-3984725_960_720.jpg"
+      },
+      {
+        "id":2,
+        "headline": "Video gaming brings money to Lincoln",
+        "content": "Elsa, Annie, Debbie and Becky have something in common with Holly and Norma. All six are affiliated with video gaming in Lincoln. The first four are the names of parlors while the last two are actual first names of business owners.I can’t help but wonder why female’s names are popular in putting the video gaming business monikers in lights. Perhaps Elsa, Annie, Debbie and Becky simply sound more trustworthy than say, Butch, Adolph, Fats or Fast Freddie.Dan TackettHowever or whatever they are named, video gambling opportunities in Lincoln are as plentiful as the bumps and dips on city streets. I’d written about them before when I expressed astonishment at the amount of money that goes in and out of these digital playthings for adults. I’m still a bit stunned when I look at the current numbers, based on data at Lincoln City Hall and on the Illinois Gaming Board’s website.",
+        "image": "https://cdn.pixabay.com/photo/2014/04/25/01/39/skateboard-331751_960_720.jpg"
+      },
+      {
+        "id":3,
+        "headline": "Best gaming PC deals: Best Buy and Newegg have prebuilt desktops at reasonable prices",
+        "content": "This story is part of Holiday Gift Guide 2021, our list of ideas, by topic, by recipient and by price, to help you discover the perfect gift.Even if you can find a stand-alone Nvidia GeForce RTX 3000-series graphics card in stock, you'll likely encounter an elevated price that'll make you gasp. A better route might be a prebuilt PC. You can find some reasonably priced, off-the-shelf gaming desktops right now with Nvidia's latest GPUs. There are even a few discounts to be found -- a rare occurrence for anything related to Nvidia's RTX GPUs.",
+        "image": "https://cdn.pixabay.com/photo/2018/11/10/04/09/peacock-3805911_960_720.jpg"
+      }
+	 ]
+}
