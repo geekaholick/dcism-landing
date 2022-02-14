@@ -24,7 +24,6 @@ import 'animate.css/animate.min.css'
 import '../src/assets/scss/style.scss'
 import 'slick-carousel/slick/slick.css'
 
-
 Vue.config.productionTip = false
 Vue.config.productionSourceMap = false
 
