@@ -78,7 +78,7 @@
                             <div class="single-blog-item lg-blog-item border-bottom wow move-up">
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
-                                        <img class="img-fluid" :src="retData.research[0].img2" alt="Blog Images">
+                                        <img class="img-fluid" :src="retData.research[0].img4" alt="Blog Images">
                                 </div>
                                 <!-- Post Feature End -->
 
@@ -114,190 +114,44 @@
                             </div>
                             <!--===== Single Blog Item End =========-->
 
-                            <!--========== Single Blog Item Start ==========-->
-                            <div class="single-blog-item lg-blog-item border-bottom wow move-up">
-                                <!-- Post Feature Start -->
-                                <div class="post-feature blog-thumbnail">
-                                    <router-link to="/blog-details">
-                                        <img class="img-fluid" src="@/assets/img/blog/blog-09-770x420.jpg" alt="Blog Images">
-                                    </router-link>
-                                </div>
-                                <!-- Post Feature End -->
-
-                                <!-- Post info Start -->
-                                <div class="post-info lg-blog-post-info">
-                                    <div class="post-categories">
-                                        <router-link to="/">App Release</router-link>
-                                    </div>
-
-                                    <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Specialized Design Tools for 2019</router-link>
-                                    </h4>
-
-                                    <div class="post-meta mt-20">
-                                        <div class="post-author">
-                                            <router-link to="/blog-details">
-                                                <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> 
-                                                Harry Ferguson
-                                            </router-link>
-                                        </div>
-                                        <div class="post-date">
-                                            <span class="far fa-calendar meta-icon"></span>
-                                            January 14, 2019
-                                        </div>
-                                    </div>
-
-                                    <div class="post-excerpt mt-15">
-                                        <p>As a result, along with the larger corporate-backed applications, we have a huge host of small tools and libraries, each designed to solve a particular problem or preserve a certain set of possibilities. A couple of these projects have become institutions: Modernizr, keeping the technical …</p>
-                                    </div>
-
-                                    <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
-                                            <span class="btn-text">Read more </span>
-                                        </router-link>
-                                    </div>
-                                </div>
-                                <!-- Post info End -->
-                            </div>
-                            <!--=========== Single Blog Item End =============-->
-
-                            <!--========== Single Blog Item Start ==========-->
-                            <div class="single-blog-item lg-blog-item border-bottom wow move-up">
-
-                                <!-- Post Feature Start -->
-                                <div class="post-feature post-link">
-                                    <h5 class="link-text">
-                                        <a href="https://themeforest.net/user/bootxperts/portfolio" target="_blank">
-                                        https://themeforest.net/user/bootxperts/portfolio</a>
-                                    </h5>
-                                </div>
-                                <!-- Post Feature End -->
-
-                                <!-- Post info Start -->
-                                <div class="post-info lg-blog-post-info">
-                                    <div class="post-categories">
-                                        <router-link to="">Project Showcase</router-link>
-                                    </div>
-
-                                    <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">D&AD Festival 2019’s Brand Identity</router-link>
-                                    </h4>
-
-                                    <div class="post-meta mt-20">
-                                        <div class="post-author">
-                                            <router-link to="/blog-details">
-                                                <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> Harry Ferguson
-                                            </router-link>
-                                        </div>
-                                        <div class="post-date">
-                                            <span class="far fa-calendar meta-icon"></span>
-                                            January 14, 2019
-                                        </div>
-                                    </div>
-
-                                    <div class="post-excerpt mt-15">
-                                        <p>The collaborative working tool, used by employees to chat and share projects, has a new “simplified” logo with a smaller color palette, that does away with the brand’s characteristic slanted hashtag symbol. It’s through mistakes that you actually can grow. You have to get bad …</p>
-                                    </div>
-
-                                    <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
-                                            <span class="btn-text">Read more </span>
-                                        </router-link>
-                                    </div>
-                                </div>
-                                <!-- Post info End -->
-                            </div>
-                            <!--=========== Single Blog Item End =============-->
-
                             <!--======= Single Blog Item Start ========-->
                             <div class="single-blog-item lg-blog-item border-bottom wow move-up">
                                 <!-- Post Feature Start -->
                                 <div class="post-feature blog-thumbnail">
-                                    <router-link to="/blog-details">
-                                        <img class="img-fluid" src="@/assets/img/blog/blog-01-770x420.jpg" alt="Blog Images">
-                                    </router-link>
+                                        <img class="img-fluid" :src="retData.research[0].img2" alt="Blog Images">
                                 </div>
                                 <!-- Post Feature End -->
 
                                 <!-- Post info Start -->
                                 <div class="post-info lg-blog-post-info">
                                     <div class="post-categories">
-                                        <router-link to="/">App Release</router-link>
+                                        <p>{{retData.research[0].subhead3}}</p>
                                     </div>
 
                                     <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Specialized Design Tools for 2019</router-link>
+                                        <p>{{retData.research[0].title3}}</p>
                                     </h4>
 
                                     <div class="post-meta mt-20">
                                         <div class="post-author">
-                                            <router-link to="/blog-details">
                                                 <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> 
-                                                Harry Ferguson
-                                            </router-link>
+                                                Michelle Mamites
                                         </div>
                                         <div class="post-date">
                                             <span class="far fa-calendar meta-icon"></span>
-                                            January 14, 2019
+                                            March 20, 2018
                                         </div>
                                     </div>
 
                                     <div class="post-excerpt mt-15">
-                                        <p>As a result, along with the larger corporate-backed applications, we have a huge host of small tools and libraries, each designed to solve a particular problem or preserve a certain set of possibilities. A couple of these projects have become institutions: Modernizr, keeping the technical …</p>
+                                        <p>{{retData.research[0].body4}}</p>
+                                        <p>{{retData.research[0].body5}}</p>
+                                        <p>{{retData.research[0].body6}}</p>
+                                        <p>{{retData.research[0].body7}}</p>
+                                    
                                     </div>
 
-                                    <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
-                                            <span class="btn-text">Read more </span>
-                                        </router-link>
-                                    </div>
-                                </div>
-                                <!-- Post info End -->
-                            </div>
-                            <!--===== Single Blog Item End =========-->
-
-                            <!--======= Single Blog Item Start ========-->
-                            <div class="single-blog-item lg-blog-item border-bottom wow move-up">
-                                <!-- Post Feature Start -->
-                                <div class="post-feature blog-thumbnail">
-                                    <router-link to="/blog-details">
-                                        <img class="img-fluid" src="@/assets/img/blog/blog-10-770x420.jpg" alt="Blog Images">
-                                    </router-link>
-                                </div>
-                                <!-- Post Feature End -->
-
-                                <!-- Post info Start -->
-                                <div class="post-info lg-blog-post-info">
-                                    <div class="post-categories">
-                                        <router-link to="/">App Release</router-link>
-                                    </div>
-
-                                    <h4 class="post-title font-weight--light">
-                                        <router-link to="/blog-details">Creativity Boosting App is Here</router-link>
-                                    </h4>
-
-                                    <div class="post-meta mt-20">
-                                        <div class="post-author">
-                                            <router-link to="/blog-details">
-                                                <img class="img-fluid avatar-96" src="@/assets/img/team/admin.png" alt="image"> 
-                                                Harry Ferguson
-                                            </router-link>
-                                        </div>
-                                        <div class="post-date">
-                                            <span class="far fa-calendar meta-icon"></span>
-                                            January 14, 2019
-                                        </div>
-                                    </div>
-
-                                    <div class="post-excerpt mt-15">
-                                        <p>As a result, along with the larger corporate-backed applications, we have a huge host of small tools and libraries, each designed to solve a particular problem or preserve a certain set of possibilities. A couple of these projects have become institutions: Modernizr, keeping the technical …</p>
-                                    </div>
-
-                                    <div class="post-read-more mt-20">
-                                        <router-link to="/blog-details" class="ht-btn ht-btn-sm">
-                                            <span class="btn-text">Read more </span>
-                                        </router-link>
-                                    </div>
+                                    
                                 </div>
                                 <!-- Post info End -->
                             </div>

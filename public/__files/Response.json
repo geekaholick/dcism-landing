@@ -3,13 +3,20 @@
 		{
 			"img1": "img/img1.jpg",
 			"img2": "img/img2.jpeg",
+			"img4": "img/img4.jpg",
 			"subhead1": "Latest News",
 			"title1": "ECE Undergrad Research: An “Inside-Out” Perspective On The Human Body",
 			"body1": "Sophomore Electrical and Computer Engineering (ECE) student Yubin Lin's education involves a lot more than simply going to class. He also conducts research in a lab on campus and is part of a team developing technology to give us an inside-out perspective on the human body.",
 			"body2": "According to Lin, current technologies have their shortcomings when looking at the human body from the outside-in perspective. An X-ray might be able to create an accurate image, but its radiations are harmful. Though occasional readings do not affect overall health, hospital staff are constantly exposed to X-rays and have a higher risk of medical issues due to constant radiation exposure. On the other hand, an ultrasound might be less harmful, but then hospital staff is limited to only soft tissue with barely legible renderings.",
 			"subhead2": "Research",
 			"title2": "Robots in the Boardroom",
-			"body3": "Steamships, electricity, the railroad, airplanes, the internet—technology and business have always been intertwined. Now a new tech revolution is pushing forward as organizations figure out how to use artificial intelligence to help them make faster, smarter, and more productive decisions. This recent research from Harvard Business School faculty marks the possibilities and pitfalls that could occur along this digital transformation."
+			"body3": "Steamships, electricity, the railroad, airplanes, the internet—technology and business have always been intertwined. Now a new tech revolution is pushing forward as organizations figure out how to use artificial intelligence to help them make faster, smarter, and more productive decisions. This recent research from Harvard Business School faculty marks the possibilities and pitfalls that could occur along this digital transformation.",
+			"title3": "USC Researchers at Forefront of Quantum Computer Development",
+			"subhead3": "Research",
+			"body4": "In the race to build the world’s first fully functional quantum computer, USC scientists report research gains that could make the wonder technology ready to begin solving big challenges in as soon as a few years.",
+			"body5": "Until now, hype has exceeded performance for quantum computing, yet USC experts testing the new technology report key gains over technical obstacles. They are trailblazing revolutionary technology and gaining confidence it can deliver results.",
+			"body6": "It’s painstaking work proving next-generation technology that business and government leaders say could have a big impact on society. The ultimate disruptive technology, it has potential to create the best possible investment portfolio, dissolve urban traffic jams and bring drugs to market faster.",
+			"body7": "It can optimize batteries for electric cars, predictions for weather and models for climate change. It can lead to faster delivery of products, lower costs for manufactured goods and best possible travel routes. Quantum computing can do this, and much more, because it can crunch massive data and variables and do it quickly with advantage over classical computers as problems get bigger."
 		}
 		
 	]
