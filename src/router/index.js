@@ -40,6 +40,7 @@ import NotFound from '../pages/elements/404'
 // FOR DCISM ROUTES
 import Home from '../pages/Home'
 import Announcements from '../components/dcism/sections/announcements/AllAnnouncements'
+import ResearchPage from '../pages/GenResearchArea'
 
 export const routes = [
     {
@@ -226,6 +227,11 @@ export const routes = [
         path:'/portfolio-details-two',
         name: 'PortfolioDetailsTwo',
         component: PortfolioDetailsTwo
+    },
+    {
+        path: '/GenResearchArea',
+        name: 'ResearchPage',
+        component: ResearchPage
     },
     {
         path:'/blog-list-large-image',

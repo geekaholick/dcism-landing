@@ -10,7 +10,7 @@
         <Breadcrumb>
             <template slot="breadcrumb">
                 <div class="breadcrumb_box text-center">
-                    <h2 class="breadcrumb-title">Blog Details</h2>
+                    <h2 class="breadcrumb-title">Research Details</h2>
                     <!-- breadcrumb-list start -->
                     <ul class="breadcrumb-list">
                         <li class="breadcrumb-item">

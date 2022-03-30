@@ -1,0 +1,16 @@
+{
+	"research": [
+		{
+			"img1": "img/img1.jpg",
+			"img2": "img/img2.jpeg",
+			"subhead1": "Latest News",
+			"title1": "ECE Undergrad Research: An “Inside-Out” Perspective On The Human Body",
+			"body1": "Sophomore Electrical and Computer Engineering (ECE) student Yubin Lin's education involves a lot more than simply going to class. He also conducts research in a lab on campus and is part of a team developing technology to give us an inside-out perspective on the human body.",
+			"body2": "According to Lin, current technologies have their shortcomings when looking at the human body from the outside-in perspective. An X-ray might be able to create an accurate image, but its radiations are harmful. Though occasional readings do not affect overall health, hospital staff are constantly exposed to X-rays and have a higher risk of medical issues due to constant radiation exposure. On the other hand, an ultrasound might be less harmful, but then hospital staff is limited to only soft tissue with barely legible renderings.",
+			"subhead2": "Research",
+			"title2": "Robots in the Boardroom",
+			"body3": "Steamships, electricity, the railroad, airplanes, the internet—technology and business have always been intertwined. Now a new tech revolution is pushing forward as organizations figure out how to use artificial intelligence to help them make faster, smarter, and more productive decisions. This recent research from Harvard Business School faculty marks the possibilities and pitfalls that could occur along this digital transformation."
+		}
+		
+	]
+}
