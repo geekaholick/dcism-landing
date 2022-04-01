@@ -30,7 +30,7 @@
 		{	
 			"img1": "img/IS.png",
 			"img2": "img/IS.jpeg",
-			"title": "Bachelor of Science in Information Science",
+			"title": "Bachelor of Science in Information Systems",
 			"body":  "Bachelor of Science in Information Systems program is the study of information technology applications and effect on orgranizations. This program leads students to implement effective information systems including its components, tools, techniques, strategies and methodologies in various enterprise and organization settings.",
 			"jobs": [
 				"Organization Process Analysts",
@@ -68,3 +68,4 @@
 		}
 	]
 }
+
