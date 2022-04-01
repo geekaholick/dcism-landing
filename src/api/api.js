@@ -6,6 +6,7 @@ const BaseApi = axios.create({
   // this is for testing
   headers: {
     'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET,POST,OPTIONS,DELETE,PUT'
   }
 })
 

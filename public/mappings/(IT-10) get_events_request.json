@@ -1,0 +1,13 @@
+{
+    "request":{
+        "method": "GET",
+        "url": "/api/events"
+    },
+    "response":{
+        "status":200,
+        "headers" : {
+            "Access-Control-Allow-Origin" : "*"
+        },
+        "bodyFileName": "../__files/(IT-10) get_events_response.json"
+    }
+}

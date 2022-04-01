@@ -17,7 +17,7 @@
           </router-link>
         </li>
         <li class="cat-item">
-          <router-link to="/announcements"
+          <router-link to="/events"
             >Events Page<span class="count">1</span>
           </router-link>
         </li>
