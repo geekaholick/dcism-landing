@@ -1,8 +1,6 @@
 <template>
     <div class="main-container">
         <Header />
-        <Hero />
-
         <div class="digital-agency-assistance-area  section-space--ptb_120">
             <div class="container">
                 <div class="row">
@@ -35,7 +33,6 @@
 
 <script>
     import Header from "@/components/dcism/Header.vue";
-    import Hero from "@/components/dcism/sections/Hero";
     import Footer from "@/components/dcism/Footer.vue";
     import axios from 'axios';
     
@@ -43,7 +40,6 @@
         name: "FAQPage",
         components: {
             Header,
-            Hero,
             Footer,
         },
         mounted(){

@@ -15,7 +15,7 @@
                         <b-dropdown-item to="/announcements">Announcements</b-dropdown-item>
                         <b-dropdown-item to="/" target="_blank">News</b-dropdown-item>
                         <b-dropdown-item to="/" target="_blank">Events</b-dropdown-item>
-                        <b-dropdown-item to="/" target="_blank">FAQs</b-dropdown-item>
+                        <b-dropdown-item to="/FAQ-Page" target="_blank">FAQs</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
                     <b-nav-item href="#team" class="scroll"><span>OUR TEAM</span></b-nav-item>
