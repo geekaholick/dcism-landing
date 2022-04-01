@@ -1,0 +1,70 @@
+{
+	"programs": [
+		{
+			"img1": "img/IT.png",
+			"img2": "img/IT.jpeg",
+			"title": "Bachelor of Science in Information Technology",
+			"body":  "Bachelor of Science in Information Technology program includes the study of the utilization of both hardware and software technologies involving planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure that provides computing solutions to address the needs of an organization.",
+			"jobs": [
+				"Web and Application Developers",
+				"Junoir Database Administrators",
+				"Systems Administrators",
+				"Network Engineers",
+				"Systems Integration Personnel",
+				"IT Audit Assistants"
+			]
+		},
+		{
+			"img1": "img/CS.png",
+			"img2": "img/CS.jpg",
+			"title": "Bachelor of Science in Computer Science",
+			"body":  "Bachelor of Science in Computer Science program is the study of computing concepts and theories, algorithmic foundations and new developments in computing, including the standards and practices in Software Engineering. This program prepares students to design and create algorithmically complex software and develop new effective algorithms for solving computing problems.",
+			"jobs": [
+				"Software Engineers",
+				"System Software Engineers",
+				"Research and Development Computing Professionals",
+				"Applications Software Developers",
+				"Computer Programmers"
+			]
+		},
+		{	
+			"img1": "img/IS.png",
+			"img2": "img/IS.jpeg",
+			"title": "Bachelor of Science in Information Science",
+			"body":  "Bachelor of Science in Information Systems program is the study of information technology applications and effect on orgranizations. This program leads students to implement effective information systems including its components, tools, techniques, strategies and methodologies in various enterprise and organization settings.",
+			"jobs": [
+				"Organization Process Analysts",
+				"Data Analysts",
+				"Solutions Specialists",
+				"System Analysts",
+				"IS Project Management Personnel"
+			]
+		},
+		{
+			"img1": "img/LIS.png",
+			"img2": "img/LIS.jpg",
+			"title": "Bachelor of Science in Library and Information Science",
+			"body":  "Bachelor of Science in Library and Information Science is the study of the development, deployment, and management of information resources in print, non-print, electronic and digital formats and services. Graduates of this program are being prepared to apply technology to basic library operations and functions. They are trained to harness a range of bibliographical and online tools to support teaching, reasearch and other services.",
+			"jobs": [
+				"Abstractor",
+				"Academic Librarian",
+				"Archivist",
+				"Medical Librarian",
+				"School Librarian"
+			]
+		},
+		{
+			"img1": "img/Math.png",
+			"img2": "img/Math.jpeg",
+			"title": "Bachelor of Science in Mathematics",
+			"body":  "Bachelor of Science in Mathematics program provides students with substantial exposure to the breadth and depth of mathematics, from classical to contemporary, and from theoretical to applied. The curriculum covers foundational courses in core area of pure and applied mathematics as well as advanced courses that wil help prepare graduates to pursue higher studies or work in a variety of fields.",
+			"jobs": [
+				"Programmers",
+				"Statistics",
+				"Reseachers",
+				"Market Analysts",
+				"Data Scientists"
+			]
+		}
+	]
+}
