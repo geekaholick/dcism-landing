@@ -1,0 +1,46 @@
+{
+    "events": [
+        {
+            "id" : "1",
+            "image" : "eventImage/event1.jpg",
+            "title" : "Event 1",
+            "desc" : "Lorem ipsum dolor sit amet. Qui laudantium optio id magnam amet aut Quis veniam in cumque veniam.",
+            "event_date" : "2021-12-15"
+        },
+        {
+            "id" : "2",
+            "image" : "eventImage/event2.jpg",
+            "title" : "Event 2",
+            "desc" : "Lorem ipsum dolor sit amet. Qui laudantium optio id magnam amet aut Quis veniam in cumque veniam.",
+            "event_date" : "2021-12-13"
+        },
+        {
+            "id" : "3",
+            "image" : "eventImage/event3.jpg",
+            "title" : "Event 3",
+            "desc" : "Lorem ipsum dolor sit amet. Qui laudantium optio id magnam amet aut Quis veniam in cumque veniam.",
+            "event_date" : "2021-09-13"
+        },
+        {
+            "id" : "4",
+            "image" : "eventImage/event4.jpg",
+            "title" : "Event 4",
+            "desc" : "Lorem ipsum dolor sit amet. Qui laudantium optio id magnam amet aut Quis veniam in cumque veniam.",
+            "event_date" : "2021-10-13"
+        },
+        {
+            "id" : "5",
+            "image" : "eventImage/event5.jpg",
+            "title" : "Event 5",
+            "desc" : "Lorem ipsum dolor sit amet. Qui laudantium optio id magnam amet aut Quis veniam in cumque veniam.",
+            "event_date" : "2021-05-13"
+        },
+        {
+            "id" : "6",
+            "image" : "eventImage/event6.jpg",
+            "title" : "Event 6",
+            "desc" : "Lorem ipsum dolor sit amet. Qui laudantium optio id magnam amet aut Quis veniam in cumque veniam.",
+            "event_date" : "2021-12-13"
+        }
+    ]
+}
