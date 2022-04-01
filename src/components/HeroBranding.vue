@@ -19,7 +19,7 @@
         data (){
             return {
                 bgImg: {
-                    backgroundImage: `url(${require('../assets/img/hero/branding/branding.jpg')})`
+                    backgroundImage: `url(${require('../assets/img/hero/branding/DCISM.png')})`
                 },
             }
         }
