@@ -8,6 +8,6 @@
         "headers" : {
           "Access-Control-Allow-Origin" : "*"
         },
-        "bodyFileName": "./Response.json"
+        "bodyFileName": "./IT-12.json"
     }
 }
