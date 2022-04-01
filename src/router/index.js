@@ -42,6 +42,7 @@ import NotFound from '../pages/elements/404'
 import Home from '../pages/Home'
 import Announcements from '../components/dcism/sections/announcements/AllAnnouncements'
 import Admissions from '../pages/Admissions'
+import FAQs from '../components/dcism/sections/faqs/FAQPage'
 
 
 export const routes = [
@@ -244,6 +245,11 @@ export const routes = [
         path:'/blog-details',
         name: 'BlogDetails',
         component: BlogDetails
+    },
+    {
+        path:'/FAQ-Page',
+        name: 'FAQPage',
+        component: FAQs
     },
     {
         path:'*',
