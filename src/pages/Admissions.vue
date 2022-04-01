@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
-                            <h2 class="section-title font-weight--bold mb-15">SY 2021 - 2022</h2>
+                            <h2 class="section-title font-weight--bold mb-15">SY 2021-2022</h2>
                         </div>
                     </div>
                 </div>
