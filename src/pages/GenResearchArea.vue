@@ -171,7 +171,7 @@
         <FooterMain />
 
         <!-- offcanvas search component -->
-
+        
         <!-- off-canvas mobile menu -->
         <OffCanvasMobileMenu />
 
