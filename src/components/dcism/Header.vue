@@ -1,5 +1,5 @@
 <template>
-    <b-navbar type="light" toggleable="xl" v-b-scrollspy:nav-scroller class="header-area header-agency" :class="{'is-sticky': scrolled}">
+    <b-navbar type="light" toggleable="xl" v-b-scrollspy:nav-scroller class="header-area header-agency" ><!--:class="{'is-sticky': scrolled}"-->
         <div class="container-fluid container-fluid--cp-150">
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
             <b-navbar-brand class="navbar-brand" to="/"><img :src='"../../assets/img/logo/logo-dark.png"' alt="logo"></b-navbar-brand>

@@ -1,6 +1,9 @@
 <template>
   <div class="container">
     <div class="row">
+      <Header></Header>
+    </div>
+    <div class="row">
       <div class="col-sm-12">
         <div class="jumbotron">
           <div class="container">
@@ -13,24 +16,28 @@
        <div class="wrapper">
           <div class="leftcolumn">
             <div class="headline">
-            <h3> {{articles[0].headline}} </h3>
+            <h3> {{articles[2].headline}} </h3>
+            </div>
+            <div class="authordate"> 
+              Author: {{articles[2].author}}<br>
+              Date Published:{{articles[2].date}} {{articles[2].time}}
             </div>
             <div class="content">
-              <p>{{articles[0].content}}</p>
+              <p>{{articles[2].content}}</p>
             </div>
           </div>
           
           <div class="rightcolumn">
-            <img :src='articles[0].image' alt="Article Image">
+            <img :src='articles[2].image' alt="Article Image">
           </div>
           
        </div>
      </body>
-     <footer class="col-sm-12">
-       <hr>
-       
-     </footer>
+     
     </div>
+    <div class="row">
+      <Footer></Footer>
+      </div>
     
     
     <!-- <Articles :articles="articles" /> -->
@@ -51,11 +58,15 @@
 </template>
 
 <script>
+import Header from './components/dcism/Header.vue'
+import Footer from './components/dcism/Footer.vue'
 import Articles from './components/dcism/NewsPageSpecific/Articles'
 
 export default {
   name: 'App',
   components: {
+    Header,
+    Footer
     // Articles,
   },
   data() {
@@ -141,6 +152,9 @@ body {
       margin: 0 auto;
 }
 
+.authordate {
+  color: #228B22;
+}
 
 
 </style>
