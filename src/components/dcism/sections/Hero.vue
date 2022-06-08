@@ -6,30 +6,11 @@
                     <div class="swiper-slide bg-cover slider-1">
                         <div class="hero-item">
                             <div class="hero-content text-center">
-                                <h4 class="hero-content-subtitle">We Are A Scandinavian User</h4>
-                                <h2 class="h1 hero-content-title">Experience Agency</h2>
-                                <div class="hero-btn">
-                                    <button class="ht-btn ht-btn-md ht-btn--gradient2">Subscribe</button>
-                                    <button class="ht-btn ht-btn-md">Subscribe</button>
-                                </div>
+                                <h2 class="h1 hero-content-title">Temp University</h2>
+                                <h4 class="hero-content-subtitle">The best university for your education.</h4>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide bg-cover slider-2">
-                        <div class="hero-item">
-                            <div class="hero-content text-center">
-                                <h4 class="hero-content-subtitle">Nice to meet you!</h4>
-                                <h2 class="h1 hero-content-title">We’re a small team of storytellers</h2>
-                                <h6 class="sub-heading">
-                                    Questions? 
-                                    <router-link to="" class="hover-style-link hover-style-link--green">Talk to our team</router-link>
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Optional controls -->
-                    <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
-                    <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
                 </swiper>
             </div>
         </div>
@@ -84,6 +65,7 @@
         &-title {
             color: $white;
             font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
             margin-bottom: 0;
             // responsive
             @media #{$large-mobile}{
@@ -115,7 +97,7 @@
         }
     }
     .slider-1 {
-        background-image: url('../../../assets/img/hero/agency/digital-agency-01.jpg');
+        background-image: url('../../../assets/img/agency/school-01.jpg');
     }
     .slider-2 {
         background-image: url('../../../assets/img/hero/agency/digital-agency-02.jpg');

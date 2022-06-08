@@ -36,7 +36,7 @@
                                 <router-link to="/" class="hover-style-link">Online check in</router-link>
                             </li>
                             <li>
-                                <router-link to="/FAQ-Page" class="hover-style-link">FAQ</router-link>
+                                <router-link to="/" class="hover-style-link">FAQ</router-link>
                             </li>
                         </ul>
                     </div>

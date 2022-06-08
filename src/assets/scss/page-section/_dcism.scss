@@ -333,3 +333,157 @@
     }
 }
 
+/*-----COURSE PAGE-----*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h4{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+/*-----COURSE PAGE-----*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+.campus-col h4{
+    color: black;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(0, 200, 226, 0.7);
+}
+.layer h4{
+    width: 100%;
+    font-weight: 400;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h4{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/*-----FACILITIES PAGE-----*/
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding: 0;
+}
+.facilities-col h4{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/*-----FACILITIES PAGE-----*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #1c0f69;
+}
+.cta h1{
+    margin-bottom:40px;
+    padding: 0;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    color: white;
+    transition: 1s;
+}

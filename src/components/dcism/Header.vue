@@ -2,7 +2,7 @@
     <b-navbar type="light" toggleable="xl" v-b-scrollspy:nav-scroller class="header-area header-agency" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-            <b-navbar-brand class="navbar-brand" to="/"><img :src='"../../assets/img/logo/logo-dark.png"' alt="logo"></b-navbar-brand>
+           <!--  <b-navbar-brand class="navbar-brand" to="/"><img :src='"../../assets/img/logo/logo-dark.png"' alt="logo"></b-navbar-brand>-->
             <b-btn-group class="header-config-wrapper">
                 <!-- <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
                 <b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
@@ -10,17 +10,12 @@
             </b-btn-group>
             <b-collapse class="default-nav justify-content-end"  is-nav id="nav_collapse">
                 <b-navbar-nav class="navbar-nav main-menu">
-                    <b-nav-item to="/"><span>HOME</span></b-nav-item>
+                    <b-nav-item href="#home" class="scroll"><span>HOME</span></b-nav-item>
                     <b-nav-item-dropdown text="OTHERS">
-                        <b-dropdown-item to="/announcements">Announcements</b-dropdown-item>
-                        <b-dropdown-item to="/" target="_blank">News</b-dropdown-item>
-                        <b-dropdown-item to="/" target="_blank">Events</b-dropdown-item>
-                        <b-dropdown-item to="/FAQ-Page" target="_blank">FAQs</b-dropdown-item>
+                        <b-dropdown-item href="#course">Course</b-dropdown-item>
+                        <b-dropdown-item href="#campus">Campus</b-dropdown-item>
+                        <b-dropdown-item href="#facilities">Facilities</b-dropdown-item>                        
                     </b-nav-item-dropdown>
-                    <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
-                    <b-nav-item href="#team" class="scroll"><span>OUR TEAM</span></b-nav-item>
-                    <b-nav-item href="#team" class="scroll"><span><router-link to="/admissions" exact-path>ADMISSION</router-link></span></b-nav-item>
-                    <b-nav-item href="#project" class="scroll"><span>PROJECT</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
                 </b-navbar-nav>
             </b-collapse>

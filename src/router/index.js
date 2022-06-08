@@ -37,13 +37,9 @@ import BlogListLargeImage from '../pages/blog/BlogListLargeImage'
 import BlogDetails from '../pages/blog/BlogDetails'
 import NotFound from '../pages/elements/404'
 
-
 // FOR DCISM ROUTES
 import Home from '../pages/Home'
 import Announcements from '../components/dcism/sections/announcements/AllAnnouncements'
-import Admissions from '../pages/Admissions'
-import FAQs from '../components/dcism/sections/faqs/FAQPage'
-
 
 export const routes = [
     {
@@ -54,12 +50,7 @@ export const routes = [
     {
         path:'/announcements',
         name: 'Announcements',
-        component: Announcements
-    },
-    {
-        path:'/admissions',
-        name: 'Admissions',
-        component: Admissions
+        component: Announcements,
     },
     {
         path:'/branding',
@@ -245,11 +236,6 @@ export const routes = [
         path:'/blog-details',
         name: 'BlogDetails',
         component: BlogDetails
-    },
-    {
-        path:'/FAQ-Page',
-        name: 'FAQPage',
-        component: FAQs
     },
     {
         path:'*',

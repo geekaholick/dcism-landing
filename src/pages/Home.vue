@@ -7,23 +7,17 @@
 		<!-- hero section -->
 		<Hero />
 
-		<!-- service section -->
-		<Service />
+		<!-- course section -->
+		<Course />
 
-		<!-- feature section -->
-		<Feature />
+		<!-- campus section -->
+		<Campus />
 
-		<!-- team section -->
-		<Team />
+		<!-- facilities section -->
+		<Facilities />
 
-		<!-- project gallery -->
-		<Project />
-
-        <!-- newsletter section -->
-        <Newsletter /> 
-
-		<!-- contact us section -->
-		<Contact />
+		<!-- call to action -->
+		<CTA />
 
 		<!-- footer section -->
         <Footer />
@@ -37,12 +31,10 @@
 <script>
 	import Header from "@/components/dcism/Header";
 	import Hero from "@/components/dcism/sections/Hero";
-	import Service from "@/components/dcism/sections/Service";
-	import Feature from "@/components/dcism/sections/Feature";
-	import Team from "@/components/dcism/sections/Team";
-	import Project from "@/components/dcism/sections/Project";
-	import Newsletter from "@/components/dcism/Newsletter";
-	import Contact from "@/components/dcism/sections/Contact";
+	import Course from "@/components/dcism/sections/Course";
+	import Campus from "@/components/dcism/sections/Campus";
+	import Facilities from "@/components/dcism/sections/Facilities";
+	import CTA from "@/components/dcism/sections/CTA";
 	import Footer from "@/components/dcism/Footer";
 	import OffcanvasSearchBox from "@/components/dcism/OffcanvasSearchBox";
 
@@ -51,18 +43,16 @@
 		components: {
 			Header,
 			Hero,
-			Service,
-			Feature,
-			Team,
-			Project,
-			Newsletter,
-			Contact,
+			Course,
+			Campus,
+			Facilities,
+			CTA,
             Footer,
             OffcanvasSearchBox	
 		},
 
 		metaInfo: {
-            title: 'Aeroland - Home Agency',
+            title: 'Homepage',
             htmlAttrs: {
                 lang: 'en',
                 amp: true

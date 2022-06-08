@@ -1,0 +1,8 @@
+{
+    "rooms":[
+        { "title": "Pool", "id": 1, "details": "./School_Images/facil_1.jpg"},
+        { "title": "Library", "id": 2, "details": "./School_Images/facil_2.jpg"},
+        { "title": "Classroom", "id": 3, "details": "./School_Images/facil_3.jpg"},
+        { "title": "Dorm", "id": 4, "details": "./School_Images/facil_4.jpg"}
+    ]
+}
