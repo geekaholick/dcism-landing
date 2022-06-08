@@ -30,6 +30,9 @@
           <div class="rightcolumn">
             <img :src='articles[2].image' alt="Article Image">
           </div>
+           
+
+         
           
        </div>
      </body>
@@ -60,14 +63,14 @@
 <script>
 import Header from './components/dcism/Header.vue'
 import Footer from './components/dcism/Footer.vue'
-import Articles from './components/dcism/NewsPageSpecific/Articles'
+//import Articles from './components/dcism/NewsPageSpecific/Articles'
 
 export default {
   name: 'App',
   components: {
     Header,
     Footer
-    // Articles,
+    //Articles,
   },
   data() {
     return {
@@ -78,7 +81,7 @@ export default {
     fetch('http://localhost:3000/articles')
     .then(res => res.json())
     .then(data => this.articles = data)
-    .catch(err => console.log(err.message))
+    //.catch(err => console.log(err.message))
   },
   methods() {
   },
@@ -121,8 +124,9 @@ body .image img{
 } */
 
 img{
-  display: block;
+  display:flex;
   width: 670px;
+  Height:487px;
   
 } 
 
@@ -146,10 +150,20 @@ body {
 .leftcolumn {
       width: 450px;
       background-color: #DCDCDC;
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 490px;
 }
 .rightcolumn {
-      width: 500px;
-      margin: 0 auto;
+      width: 200px;
+      margin: 0;
+}
+.sidemenu {
+  background-color: aliceblue;
+  width: fit-content;
+  float: right;
+  opacity: 0.8;
+  
 }
 
 .authordate {
