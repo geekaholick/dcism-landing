@@ -8,7 +8,7 @@
         <div class="jumbotron">
           <div class="container">
             <span class="display-4 h1">USC Specific News Page</span>
-            <p class="lead">To USC We Sing</p>
+            <p class="lead">Bringing you the Specifics</p>
           </div>
         </div>
      </div>
@@ -16,19 +16,19 @@
        <div class="wrapper">
           <div class="leftcolumn">
             <div class="headline">
-            <h3> {{articles[2].headline}} </h3>
+            <h3> {{articles[0].headline}} </h3>
             </div>
             <div class="authordate"> 
-              Author: {{articles[2].author}}<br>
-              Date Published:{{articles[2].date}} {{articles[2].time}}
+              Author: {{articles[0].author}}<br>
+              Date Published:{{articles[0].date}} {{articles[0].time}}
             </div>
             <div class="content">
-              <p>{{articles[2].content}}</p>
+              <p>{{articles[0].content}}</p>
             </div>
           </div>
           
           <div class="rightcolumn">
-            <img :src='articles[2].image' alt="Article Image">
+            <img :src='articles[0].image' alt="Article Image">
           </div>
            
 
