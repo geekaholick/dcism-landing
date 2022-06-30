@@ -1,0 +1,20 @@
+{
+  "partners": [
+    {
+      "img": "img/accenture.png",
+      "name": "Accenture",
+      "description": "Description is found here"
+    },
+    {
+      "img": "img/cisco.png",
+      "name": "CISCO",
+      "description": "Description is found here"
+    },
+    {
+      "img": "img/dost.png",
+      "name": "DOST",
+      "description": "Description is found here"
+    }
+
+  ]
+}

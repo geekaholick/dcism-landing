@@ -43,6 +43,7 @@ import Home from '../pages/Home'
 import Announcements from '../components/dcism/sections/announcements/AllAnnouncements'
 import Admissions from '../pages/Admissions'
 import FAQs from '../components/dcism/sections/faqs/FAQPage'
+import PartnersAndLinkages from '../components/dcism/sections/partnersandlinkages/PartnersAndLinkages'
 
 
 export const routes = [
@@ -255,5 +256,10 @@ export const routes = [
         path:'*',
         name: 'NotFound',
         component: NotFound
+    },
+    {
+        path:'/partners-and-linkages',
+        name: 'PartnersAndLinkages',
+        component: PartnersAndLinkages
     },
 ];
