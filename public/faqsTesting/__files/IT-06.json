@@ -1,0 +1,24 @@
+{
+    "faqs":[
+        {
+            "title": "Where to find us",
+            "content": "We are located University of San Carlos Talamban Campus in Cebu Philippines." 
+        },
+        {
+            "title": "What do we offer?",
+            "content": "We offer five(5) Bachelor courses, three(3) Master courses and one(1) Associate course all related to Mathematics and Technology related courses. A list of our program can also be seen in our about page." 
+        },
+        {
+            "title": "What's new?",
+            "content": "We have more activities and events wherein students can enhance their abilities in their respective fields. Announcements of these events can also be found in our Announcement page." 
+        },
+        {
+            "title": "Having trouble trying to contact us?",
+            "content": "There are multiple ways to reach us. You can contact us through our Facebook page or through email. More options can be seen in our contact page." 
+        },
+        {
+            "title": "Want to Enroll?",
+            "content": "You can enroll in our courses in ismis.usc.edu.ph." 
+        }
+    ]
+}
