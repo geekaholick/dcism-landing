@@ -5,7 +5,6 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 left-bg"></div>
                     <div class="col-lg-6 right-bg">
-                        <div class="countdown-wrapper-maintenance section-space--ptb_60">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="maintenance-logo text-center">
@@ -13,16 +12,10 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <div class="maintenance-title text-center">
-                                        <h3 class="section-title font-weight--bold mb-15">Something really good is <br>coming very soon!</h3>
+                                       <center> <h3 class="section-title font-weight--bold mb-15">Contact Page </h3></center>
                                     </div>
                                 </div>
                                 <div class="col-sm-10 m-auto">
-                                    <div class="timer text-center">
-                                        <!-- countdown start -->
-                                        <flip-countdown deadline="2021-12-25" class="countdown-deals counter-style--one"></flip-countdown>
-                                        <!-- countdown end -->
-                                    </div>
                                 </div>
                                 <div class="col-lg-8 col-sm-8 mr-auto ml-auto">
                                     <div class="maintenance-newsletter">
@@ -39,8 +32,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+
 </template>
 
 <script>

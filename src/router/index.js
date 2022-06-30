@@ -36,6 +36,7 @@ import PortfolioDetailsTwo from '../pages/portfolio/PortfolioDetailsTwo'
 import BlogListLargeImage from '../pages/blog/BlogListLargeImage'
 import BlogDetails from '../pages/blog/BlogDetails'
 import NotFound from '../pages/elements/404'
+import contactpage from '../pages/contactpage'
 
 
 // FOR DCISM ROUTES
@@ -65,6 +66,11 @@ export const routes = [
         path:'/branding',
         name: 'HomeBranding',
         component: HomeBranding
+    },
+    {
+        path:'/contactpage',
+        name: 'contactpage',
+        component: contactpage
     },
     {
         path:'/sass',
@@ -257,3 +263,6 @@ export const routes = [
         component: NotFound
     },
 ];
+
+
+
