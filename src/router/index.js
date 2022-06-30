@@ -43,6 +43,7 @@ import Home from '../pages/Home'
 import Announcements from '../components/dcism/sections/announcements/AllAnnouncements'
 import Admissions from '../pages/Admissions'
 import FAQs from '../components/dcism/sections/faqs/FAQPage'
+import FacultyPage from "@/components/dcism/sections/facultyinformation/FacultyPage";
 
 
 export const routes = [
@@ -256,4 +257,9 @@ export const routes = [
         name: 'NotFound',
         component: NotFound
     },
+    {
+        path:'/Faculty',
+        name: 'FacultyPage',
+        component: FacultyPage
+    }
 ];

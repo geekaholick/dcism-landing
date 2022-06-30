@@ -192,6 +192,12 @@
       </div>
     </div>
 
+    <br>
+
+    <TeamOne />
+
+    <br>
+
     <!-- footer section -->
     <Footer />
 
@@ -209,16 +215,20 @@ import OffcanvasSearchBox from "@/components/dcism/OffcanvasSearchBox";
 import SidebarAnnouncement from "@/components/dcism/sections/announcements/SidebarAnnouncement";
 import Api from "@/api/api.js";
 import AnnouncementSkeleton from "@/components/dcism/sections/announcements/AnnouncementSkeleton";
+import TeamOne from "@/components/TeamOne"
+import TabContentOne from "@/components/TabTwoContentOne";
 
 export default {
   name: "AllAnnouncements",
   components: {
+    TabContentOne,
     HeaderElement,
     Breadcrumb,
     Footer,
     OffcanvasSearchBox,
     SidebarAnnouncement,
     AnnouncementSkeleton,
+    TeamOne
   },
   metaInfo: {
     title: "Announcements | DCISM",
@@ -292,7 +302,7 @@ export default {
       window.scroll({
         top: this.$refs.announcement_section.offsetTop,
         left: 0,
-        behavior: "smooth",
+        behavior: "smooth"
       });
 
       this.data.page--;

@@ -20,14 +20,12 @@
 <script>
     import AdmissionTabContentOne from '../components/AdmissionTabContentOne'
     import AdmissionTabContentTwo from '../components/AdmissionTabContentTwo'
-    import AdmissionTabContentThree from '../components/AdmissionTabContentThree'
 
     export default {
         name: 'AdTabOne',
         components: {
             AdmissionTabContentOne,
             AdmissionTabContentTwo,
-            AdmissionTabContentThree
         }
     };
 </script>

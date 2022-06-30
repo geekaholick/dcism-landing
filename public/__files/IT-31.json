@@ -1,0 +1,130 @@
+{
+  "facultyMems": [
+    {
+      "icon": "img/faculty1.jpeg",
+      "name": "Devon Webber",
+      "position": "Department Chair",
+      "email": "webdev@gmail.com",
+      "degrees": [
+        "B.S. Computer Engineering",
+        "B.S. Mathematics"
+      ],
+      "interests": [
+        "Web Development",
+        "Networking"
+      ]
+    },
+    {
+      "icon": "img/faculty8.jpeg",
+      "name": "Frances Francis",
+      "position": "Assistant Chair",
+      "email": "franfran@gmail.com",
+      "degrees": [
+        "B.S. Computer Engineering",
+        "M.S. Computer Engineering"
+      ],
+      "interests": [
+        "Embedded Systems",
+        "Robotics"
+      ]
+    },
+    {
+      "icon": "img/faculty2.jpeg",
+      "name": "Armani Caesar",
+      "position": "Instructor",
+      "email": "armcae@gmail.com",
+      "degrees": [
+        "B.S. Information Technology",
+        "M.S. Mathematics"
+      ],
+      "interests": [
+        "Embedded Programming",
+        "Networking"
+      ]
+    },
+    {
+      "icon": "img/faculty7.jpeg",
+      "name": "Buster White",
+      "position": "Instructor",
+      "email": "busterduster@gmail.com",
+      "degrees": [
+        "B.S. Information Technology",
+        "M.S Information Technology",
+        "M.S. Mathematics"
+      ],
+      "interests": [
+        "Artificial Intelligence",
+        "Game Development"
+      ]
+    },
+    {
+      "icon": "img/faculty3.jpeg",
+      "name": "Spencer Dilweed",
+      "position": "Instructor",
+      "email": "spencespence@gmail.com",
+      "degrees": [
+        "B.S. Information Systems",
+        "M.S. Mathematics"
+      ],
+      "interests": [
+        "Web Development",
+        "Game Development"
+      ]
+    },
+    {
+      "icon": "img/faculty4.jpeg",
+      "name": "Alvin Copenhagen",
+      "position": "Instructor",
+      "email": "copeandseethe@gmail.com",
+      "degrees": [
+        "B.S. Computer Engineering",
+        "M.S. Computer Engineering"
+      ],
+      "interests": [
+        "Web Development"
+      ]
+    },
+    {
+      "icon": "img/faculty5.jpeg",
+      "name": "Teflon Don",
+      "position": "Instructor",
+      "email": "rickross@gmail.com",
+      "degrees": [
+        "B.S. Computer Science",
+        "M.S. Computer Science"
+      ],
+      "interests": [
+        "Cryptocurrency",
+        "Information Security"
+      ]
+    },
+    {
+      "icon": "img/faculty6.jpeg",
+      "name": "Sonny Francezse",
+      "position": "Instructor",
+      "email": "idied@gmail.com",
+      "degrees": [
+        "B.S. Computer Science",
+        "M.S. Computer Science"
+      ],
+      "interests": [
+        "Networking",
+        "Enforcement"
+      ]
+    },
+    {
+      "icon": "img/faculty1.jpeg",
+      "name": "Devon Webber",
+      "position": "Department Chair",
+      "email": "webdev@gmail.com",
+      "degrees": [
+        "B.S. Computer Engineering",
+        "B.S. Mathematics"
+      ],
+      "interests": [
+        "Web Development",
+        "Networking"
+      ]
+    }
+  ]
+}
